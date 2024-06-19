@@ -1,0 +1,118 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #fff; /* Light mode body background */
+    color: #333; /* Light mode text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    background-color: #282c34; /* Dark mode header background */
+    color: #fff; /* Dark mode text color */
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff; /* Blue color for links in light mode */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .theme-toggle {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .dark-mode .light-mode-icon {
+    display: none; /* Hide light mode icon in dark mode */
+  }
+  
+  .dark-mode .dark-mode-icon {
+    display: inline-block; /* Show dark mode icon in dark mode */
+  }
+  
+  .light-mode .light-mode-icon {
+    display: inline-block; /* Show light mode icon in light mode */
+  }
+  
+  .light-mode .dark-mode-icon {
+    display: none; /* Hide dark mode icon in light mode */
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Add styles for the logo */
+  .logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 24px; 
+    height: 24px;
+    border-radius: 50%; 
+    overflow: hidden;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .logo:hover {
+    transform: scale(2); 
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+
+
+  /* TODO: Fix Theme Button */
+  /* TODO: Fix Theme Button */
+  /* TODO: Fix Theme Button */
+  
