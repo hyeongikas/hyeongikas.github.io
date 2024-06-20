@@ -22,7 +22,8 @@ The code is structured as follows:
 
 ## Todo
 
-- Fix Dark/Light Mode Buttons (Currently Not Working)
+- [x] Fix Dark/Light Mode Buttons ~~(Currently Not Working)~~
+- [ ] Store Theme Preference Using local storage (JS)
 
 ## How to Contribute
 
