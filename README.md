@@ -33,6 +33,8 @@ Contributions to improve the website are welcome! Here's how you can contribute:
 3. Test your changes locally to ensure they work as expected.
 4. Create a pull request describing your changes and improvements.
 
+[Thank you ReigN for Dark-Light Mode Button Contribution]
+
 ## License
 
 The code in this repository is licensed under the [GNU/GPL License](LICENSE).
