@@ -1,6 +1,14 @@
-const themeToggle = document.querySelector('.theme-toggle');
-const body = document.body;
+let toggleBtn = document.querySelector("#toggleBtn");
 
-themeToggle.addEventListener('click', () => {
-  body.classList.toggle('dark-mode');
-});
+      let bodyEl = document.querySelector("body");
+
+      let darkMode = false;
+
+      toggleBtn.addEventListener('change', (event) => {
+        darkMode = event.target.checked;
+        if(darkMode) {
+          bodyEl.classList.add("dark");
+        } else {
+          bodyEl.classList.remove("dark");
+        }
+      })
